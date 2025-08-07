@@ -19,5 +19,6 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/tukarhadiah/", // GitHub Pages repository name
+  // Remove base path for Render/Netlify deployment
+  base: "/",
 }));
