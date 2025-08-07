@@ -1,7 +1,7 @@
-import ConnectPrintingLanding from '@/components/ConnectPrintingLanding';
+import TukarHadiahLanding from '@/components/TukarHadiahLanding';
 
 const Index = () => {
-  return <ConnectPrintingLanding />;
+  return <TukarHadiahLanding />;
 };
 
 export default Index;
