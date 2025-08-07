@@ -65,7 +65,7 @@ const ConnectPrintingLanding = () => {
         <Card>
           <CardContent className="p-6 space-y-4">
             <h2 className="text-lg font-semibold text-center text-foreground">
-              Tulis Nomor kuponmu disini *
+              Tulis Nomor kuponmu disini
             </h2>
             
             <div className="space-y-4">
@@ -188,16 +188,19 @@ const ConnectPrintingLanding = () => {
               Cara Klaim Hadiahmu*
             </h3>
             
-            <ol className="text-sm text-muted-foreground space-y-2 list-decimal list-inside">
-              <li>Screenshot layar ini</li>
-              <li>Datang ke outlet Connect Printing</li>
-              <li>Tunjukkan Kupon fisik asli</li>
-              <li>Hadiah bisa diambil langsung</li>
-              <li>Bersedia di dokumentasi oleh CS Connect Printing</li>
-              <li>Batas waktu klaim mulai 25 Agustus 25' - 7 September 25' 09.00 - 16.30</li>
-              <li>Kupon palsu/duplikat tidak berlaku</li>
-              <li>1 orang 1 hadiah</li>
-            </ol>
+            <div className="space-y-2">
+              <p className="text-sm text-muted-foreground">Langkah - langkah:</p>
+              <ol className="text-sm text-muted-foreground space-y-2 list-decimal list-inside">
+                <li>Screenshot layar ini</li>
+                <li>Datang ke outlet Connect Printing</li>
+                <li>Tunjukkan Kupon fisik asli</li>
+                <li>Hadiah bisa diambil langsung</li>
+                <li>Bersedia di dokumentasi oleh CS Connect Printing</li>
+                <li>Batas waktu klaim mulai 25 Agustus 25' - 7 September 25' 09.00 - 16.30</li>
+                <li>Kupon palsu/duplikat tidak berlaku</li>
+                <li>1 orang 1 hadiah</li>
+              </ol>
+            </div>
           </CardContent>
         </Card>
 
