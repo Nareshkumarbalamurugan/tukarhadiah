@@ -1,13 +1,28 @@
-# TukarHadiah - Point Redemption Platform
+# TukarHadiah - Coupon Redemption System
 
-A comprehensive web-based point redemption system that allows users to exchange points for various prizes. Built with modern technologies for an optimal user experience.
+A complete coupon redemption and admin management system built with React, TypeScript, and Firebase.
 
-## 🚀 Features
+## 🎯 Features
 
-### User Features
-- **Point Validation**: Check coupon codes to verify points
-- **Prize Catalog**: Browse available prizes with point requirements
-- **Real-time Redemption**: Instant prize redemption with point deduction
+### Main Application
+- **Coupon Checking**: Users can enter coupon codes to check if they won a prize
+- **Real-time Validation**: Instant feedback on coupon validity
+- **Responsive Design**: Mobile-first design with fixed emblem
+- **User-friendly Interface**: Clean and intuitive UI with Indonesian language support
+
+### Admin Dashboard
+- **Prize Management**: Add, edit, delete, and manage prize inventory
+- **Coupon Generation**: Generate coupon codes in bulk for specific prizes
+- **Winner Management**: View all winners and redemption history
+- **Store Information**: Manage store contact details and location
+- **Promo Settings**: Configure promotion campaigns with start/end dates
+- **Redemption Page**: Dedicated page for processing coupon redemptions
+
+### Redemption System
+- **Admin Authentication**: Secure login for staff members
+- **Coupon Verification**: Real-time coupon status checking
+- **Winner Information**: Capture winner details (name, WhatsApp, address)
+- **Redemption History**: Track all redemptions with timestamps
 - **Responsive Design**: Works seamlessly on mobile and desktop
 - **User-friendly Interface**: Clean, modern design optimized for Indonesian users
 
